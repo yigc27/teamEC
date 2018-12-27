@@ -1,0 +1,52 @@
+/* settlementConfirm.jspにも適用中 */
+/* purchaseHistory.jspにも適用中 */
+
+@CHARSET "UTF-8";
+	img{
+		width:100px;
+		height:100px;
+	}
+
+	thead th{
+		line-height:30px;
+		font-weight:bold;
+		font-size: 13px;
+	}
+
+	tbody td{
+		text-align:center;
+		padding: 15px 0px;
+		line-height:20px;
+		vertical-align: top;
+	}
+
+	.product{
+		margin:0 auto;
+		margin-bottom: 50px;
+		width:100%;
+	}
+
+	.totalPrice{
+		font-size:24px;
+		font-color:#666;
+	}
+
+	.submit_btn:disabled{
+		background-color:#707070;
+	}
+	.submit_btn:disabled:hover{
+		color: #332600;
+		background-color:#707070;
+		box-shadow: 2px 2px #332600;
+		cursor: default;
+	}
+
+	.submit{
+	width : 45%;
+	display : block;
+	margin: 0 auto;
+	margin-top : 5px;
+	margin-bottom : 10px;
+	margin-left : 3%;
+	padding-left : 42%;
+	}
